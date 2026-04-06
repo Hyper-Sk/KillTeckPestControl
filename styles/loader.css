@@ -1,0 +1,50 @@
+/* HTML: <div class="loader"></div> */
+
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100dvh;
+    background-color: black;
+    width: 100%;
+    z-index: 999;
+}
+
+.loader-container .logo img {
+    width: 120px;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    height: 4px;
+    width: 130px;
+    --c: no-repeat linear-gradient(red 0 0);
+    background: var(--c), var(--c), #d7b8fc;
+    background-size: 60% 100%;
+    animation: l16 3s infinite;
+}
+
+@keyframes l16 {
+    0% {
+        background-position: -150% 0, -150% 0
+    }
+
+    66% {
+        background-position: 250% 0, -150% 0
+    }
+
+    100% {
+        background-position: 250% 0, 250% 0
+    }
+}
+
+@keyframes l21 {
+    100% {
+        transform: rotate(.5turn)
+    }
+}

@@ -1,0 +1,141 @@
+/* ******************** Footer ****************  */
+
+.footer {
+  padding: 4rem 20px;
+  background-color: black;
+}
+
+.footer .footer-content {
+  display: grid;
+  max-width: 1200px;
+  margin-inline: auto;
+  grid-template-columns: 300px 1fr 1fr 1fr;
+  gap: 15px;
+  align-items: start;
+}
+
+.footer-content a {
+  color: white;
+}
+
+.footer-content a:hover {
+  color: var(--bg-red)
+}
+
+.footer-content a i {
+  color: var(--bg-red);
+}
+
+.footer-content p {
+  color: white;
+}
+
+.footer-content h3 {
+  color: white;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.footer-content .company {
+  padding-right: 20px;
+}
+
+.footer-content .company p {
+  font-size: 14px;
+}
+
+.footer-content .company img {
+  width: 130px;
+  margin-bottom: 10px;
+}
+
+.footer-content .about {
+  padding-top: 1rem;
+}
+
+.footer-content .about a {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.footer-content .ourservice {
+  padding-top: 1rem;
+}
+
+.footer-content .ourservice a {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.footer-content .address {
+  padding-top: 1rem;
+}
+
+.footer-content .address a {
+  display: block;
+  margin-bottom: 15px;
+}
+
+
+
+.copyright {
+  background: #090979;
+  background: linear-gradient(90deg, rgb(121, 9, 9) 38%, rgb(255, 0, 0) 100%);
+  padding: 10px 10px;
+}
+
+.copyright-content {
+  max-width: 1200px;
+  margin-inline: auto;
+  color: white;
+}
+
+.copyright-content a {
+  
+  /* font-style: italic; */
+  font-weight: 600;
+  /* font-size: 10px; */
+}
+
+.copyright-content p {
+  color: white;
+  text-align: center;
+  /* font-size: 10px; */
+}
+
+
+@media screen and (max-width:992px) {
+
+  .footer .footer-content {
+    grid-template-columns: 350px 1fr 1fr;
+  }
+
+}
+
+
+@media screen and (max-width:768px) {
+  .footer .footer-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+
+@media screen and (max-width:576px) {
+  .footer .footer-content {
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
+    padding: 2rem 20px;
+  }
+
+  .copyright-content a {
+    font-size: 10px;
+  }
+
+  .copyright-content p {
+    font-size: 10px;
+    text-align: center;
+  }
+}
