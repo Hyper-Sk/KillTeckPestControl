@@ -9,7 +9,7 @@
     <div class="header__menu">
       <a href="./" class="menu__link"> Home </a>
       <a href="./about.php" class="menu__link"> About </a>
-      <a href="./services.php" class="menu__link"> Service </a>
+      <a href="./services.php" class="menu__link"> Services </a>
       <!-- <a href="./pricing.php" class="menu__link"> Pricing </a> -->
       <a href="./contact.php" class="menu__link"> Contact </a>
       <a href="./contact.php" class="btn-outline"> Book Now <i class="uil uil-arrow-up-right"></i> </a>

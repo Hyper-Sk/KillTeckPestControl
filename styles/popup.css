@@ -1,0 +1,25 @@
+.popups {
+    display: none;
+    position: fixed;
+    z-index: 777;
+    bottom: 25px;
+    right: 25px;
+}
+
+.popups .whatsapp {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.popups img {}
+
+@media screen and (max-width:576px) {
+    .popups {
+        display: block;
+
+    }
+}

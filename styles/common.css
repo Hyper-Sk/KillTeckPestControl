@@ -51,31 +51,32 @@ h4 {
 
 h1>span {
   background: #000000;
-  background: linear-gradient(to top, #000000 0%, #FF1A16 61%);
+  background: linear-gradient(90deg, #ff0000  0%, #9e1000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
 }
 
 h2>span {
-  background: #000000;
-  background: linear-gradient(to top, #000000 0%, #FF1A16 61%);
+  font-weight: 600;
+   background: #000000;
+  background: linear-gradient(90deg, #ff0000  0%, #9e1000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
 }
 
 h3>span {
-  background: #000000;
-  background: linear-gradient(to top, #000000 0%, #FF1A16 61%);
+   background: #000000;
+  background: linear-gradient(90deg, #ff0000  0%, #9e1000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
 }
 
 h4>span {
-  background: #000000;
-  background: linear-gradient(to top, #000000 0%, #FF1A16 61%);
+   background: #000000;
+  background: linear-gradient(90deg, #ff0000  0%, #9e1000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;

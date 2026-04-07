@@ -4,13 +4,12 @@
 <head>
   <?php include "./_head.php" ?>
 
-  <link rel="stylesheet" href="./styles/services-1.css">
-  <link rel="stylesheet" href="./styles/services-2.css">
   <link rel="stylesheet" href="./styles/headline.css">
   <link rel="stylesheet" href="./styles/loader.css">
+  <link rel="stylesheet" href="./styles/breadcrumb.css">
 
 
-  <title>Best Pest Control in Hyderabad | Kill Teck Pest Control </title>
+  <title>Our Services</title>
 
 
 </head>
@@ -29,7 +28,12 @@
     <?php include "__header.php" ?>
 
     <!-- service one area -->
-    <?php include "__services-1.php" ?>
+     <section class="breadcrumb">
+        <div class="breadcrumb-content">
+          <h1>Our Services</h1>
+          <p>Explore Services</p>
+        </div>
+     </section>
 
     <!-- footer area -->
     <?php include "__footer.php" ?>
