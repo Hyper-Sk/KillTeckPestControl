@@ -18,7 +18,9 @@
   transition: 0.3s ease;
 }
 
-
+p,a,li,ul,section,div{
+  font-size: 15px;
+}
 
 
 a {

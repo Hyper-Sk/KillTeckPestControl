@@ -16,11 +16,11 @@
         </div>
         <div class="ourservice">
             <h3>Our Services</h3>
-            <a href="./services.php"><i class="bi bi-caret-right-fill"></i> Engine Repair</a>
-            <a href="./services.php"> <i class="bi bi-caret-right-fill"></i> General Service</a>
-            <a href="./services.php"><i class="bi bi-caret-right-fill"></i> Doorstep Service</a>
-            <a href="./services.php"><i class="bi bi-caret-right-fill"></i> Pickup & Drop Service</a>
-            <a href="./services.php"><i class="bi bi-caret-right-fill"></i> Bike Spare Parts</a>
+            <a href="./services.php"><i class="bi bi-caret-right-fill"></i> Cockroach Control</a>
+            <a href="./services.php"> <i class="bi bi-caret-right-fill"></i> Termite Control</a>
+            <a href="./services.php"><i class="bi bi-caret-right-fill"></i> Bed Bug Control</a>
+            <a href="./services.php"><i class="bi bi-caret-right-fill"></i> Mosquito Control</a>
+            <a href="./services.php"><i class="bi bi-caret-right-fill"></i> Rodent Control</a>
         </div>
         <div class="address">
             <h3>Address</h3>

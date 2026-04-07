@@ -36,11 +36,11 @@
     <!-- hero area  -->
     <?php include "__hero.php" ?>
 
-    <!-- service one area -->
-    <?php include "__services-1.php" ?>
-
     <!-- service two area -->
     <?php include "__services-2.php" ?>
+
+    <!-- service one area -->
+    <?php include "__services-1.php" ?>
 
     <!-- footer area -->
     <?php include "__footer.php" ?>
