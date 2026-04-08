@@ -4,8 +4,8 @@
             <a href="./">
                 <img src="images/flat-logo.png" alt="Urban Bike Service Logo">
             </a>
-            <p>Urban Bike Service is one of Hyderabad's best doorstep bike service startups.
-                You can book bike service at your home or office anywhere in Hyderabad.
+            <p>
+                Kill Teck Pest Control is one of the trusted pest control service providers. We offer safe and effective pest control solutions for homes, offices, villas, and commercial properties. Book pest control service at your home or workplace easily.
             </p>
         </div>
         <div class="about">
@@ -25,13 +25,13 @@
         <div class="address">
             <h3>Address</h3>
             <a class="location">
-                <i class="bi bi-geo-alt-fill"></i> Hyderabad, India.
+            <i class="uil uil-map-marker"></i> Hyderabad, India.
             </a>
             <a href="mailto:killteckpestcontrolindia@gmail.com" class="email">
-                <i class="bi bi-envelope-fill"></i> killteckpestcontrolindia@gmail.com
+            <i class="uil uil-envelope-edit"></i> killteckpestcontrolindia@gmail.com
             </a>
             <a href="tel:+916300225950" class="phone">
-                <i class="bi bi-telephone-fill"></i> +91 63002 25950
+            <i class="uil uil-phone"></i> </i> +91 63002 25950
             </a>
         </div>
     </div>
@@ -43,7 +43,7 @@
         <p>
             © Copyright 2026. All Rights Reserved. Website Design By
             <a href="https://www.instagram.com/lost_shazim?igsh=MXBkdXNrMWNpcHBuYQ==" target="_blank">
-                Developer
+            <i class="uil uil-arrow"></i> Developer
             </a>
         </p>
     </div>

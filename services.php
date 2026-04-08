@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="./styles/headline.css">
   <link rel="stylesheet" href="./styles/loader.css">
   <link rel="stylesheet" href="./styles/breadcrumb.css">
+  <link rel="stylesheet" href="./styles/reviews.css">
+
 
 
   <title>Our Services</title>
@@ -34,6 +36,11 @@
           <p>Explore Services</p>
         </div>
      </section>
+
+
+
+      <!-- Reviews area -->
+    <?php include "__reviews.php" ?>
 
     <!-- footer area -->
     <?php include "__footer.php" ?>
