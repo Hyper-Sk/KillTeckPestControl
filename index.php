@@ -26,13 +26,16 @@
 
 
   <div class="page">
-
     <!-- header area  -->
     <?php include "__headline.php" ?>
 
 
     <!-- header area  -->
     <?php include "__header.php" ?>
+
+
+
+
 
     <!-- hero area  -->
     <?php include "__hero.php" ?>

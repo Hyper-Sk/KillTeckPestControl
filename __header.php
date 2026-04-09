@@ -44,10 +44,10 @@
     </div>
 
 
-    <div class="buttons">
+    <!-- <div class="buttons">
       <a href="tel:+919885442038" class="btn-1"> Book Bike Service </a>
       <a href="tel:+919885442038" class="btn-2"> Buy Space Parts </a>
-    </div>
+    </div> -->
 
 
     <!-- <div class="social-icons">

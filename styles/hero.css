@@ -1,5 +1,6 @@
  .hero {
      height: 80vh;
+     
  }
 
  .hero-content {
@@ -80,6 +81,7 @@
      padding: 12px 30px;
      color: white;
      font-weight: 500;
+     font-size: 18px;
  }
 
  .swiper-slide .slide .action a.whatsapp {
@@ -94,6 +96,7 @@
 
  .swiper-slide .slide .action a i {
      color: white;
+     font-size: 18px;
  }
 
 

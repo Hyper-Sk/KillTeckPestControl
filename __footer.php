@@ -25,13 +25,13 @@
         <div class="address">
             <h3>Address</h3>
             <a class="location">
-            <i class="uil uil-map-marker"></i> Hyderabad, India.
+                <i class="uil uil-map-marker"></i> Hyderabad, India.
             </a>
             <a href="mailto:killteckpestcontrolindia@gmail.com" class="email">
-            <i class="uil uil-envelope-edit"></i> killteckpestcontrolindia@gmail.com
+                <i class="uil uil-envelope-edit"></i> killteckpestcontrolindia@gmail.com
             </a>
             <a href="tel:+916300225950" class="phone">
-            <i class="uil uil-phone"></i> </i> +91 63002 25950
+                <i class="uil uil-phone"></i> </i> +91 63002 25950
             </a>
         </div>
     </div>
@@ -41,9 +41,9 @@
 <div class="copyright">
     <div class="copyright-content">
         <p>
-            © Copyright 2026. All Rights Reserved. Website Design By
+            Copyright © 2026 Killtech Pest Control | All Rights Reserved. Website Design By
             <a href="https://www.instagram.com/lost_shazim?igsh=MXBkdXNrMWNpcHBuYQ==" target="_blank">
-            <i class="uil uil-arrow"></i> Developer
+                <i class="uil uil-arrow"></i> Developer
             </a>
         </p>
     </div>

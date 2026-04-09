@@ -1,20 +1,21 @@
-.reviews{
-    padding:4rem 20px;
+.reviews {
+    padding: 4rem 20px;
 
 }
-.reviews > h2{
+
+.reviews>h2 {
     text-align: center;
     margin-bottom: 10px;
 }
 
-.reviews > p {
+.reviews>p {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     max-width: 1000px;
     margin-inline: auto;
 }
 
-.reviews-content{
+.reviews-content {
     max-width: 1200px;
     margin-inline: auto;
     display: grid;
@@ -22,41 +23,49 @@
     gap: 20px;
 }
 
-.reviews-content .review{
-    border: 1px solid rgba(0,0,0,0.1);
+.reviews-content .review {
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-top: 4px solid var(--bg-dark);
 }
+
 .reviews-content .review .top {
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
     align-items: center;
 }
-.reviews-content .review .top img{
+
+.reviews-content .review .top img {
     width: 40px;
 }
-.reviews-content .review .top h4{
+
+.reviews-content .review .top h4 {
     font-size: 20px;
 }
 
-.reviews-content .review .rating{
+.reviews-content .review .rating {
     margin-bottom: 10px;
 }
 
-.reviews-content .review .rating i{
-   color: goldenrod;
+.reviews-content .review .rating i {
+    color: goldenrod;
 }
 
 
 @media screen and (max-width:768px) {
-    .reviews-content{
-        grid-template-columns: 1fr  1fr;
+    .reviews-content {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (max-width:576px) {
-    .reviews-content{
-        grid-template-columns: 1fr ;
+    .reviews {
+        padding: 2rem 20px;
+
+    }
+
+    .reviews-content {
+        grid-template-columns: 1fr;
     }
 }

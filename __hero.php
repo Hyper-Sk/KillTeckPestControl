@@ -15,8 +15,8 @@
                                       Our experienced pest control team uses advanced equipment and proven techniques to eliminate pest infestations quickly and effectively, ensuring a clean, hygienic, and pest-free environment for your home or workplace.
                                   </p>
                                   <div class="action">
-                                      <a href="#" class="whatsapp"><i class="uil uil-whatsapp"></i> Whatsapp Now</a>
-                                      <a href="#" class="call"><i class="uil uil-phone"></i> Call Now</a>
+                                      <a href="https://api.whatsapp.com/send?phone=916300225950&text=Hi%2C%20I%20am%20Looking%20for%20Pest%20Control%20Service%20in%20Hyderabad." class="whatsapp" target="_blank"><i class="uil uil-whatsapp"></i> Whatsapp Now</a>
+                                      <a href="tel:+916300225950" class="call"><i class="uil uil-phone"></i> Call Now </a>
                                   </div>
                               </div>
                           </div>
@@ -35,8 +35,10 @@
                                       We offer comprehensive pest control services designed for houses, flats, villas, offices, and commercial buildings. Our treatments remove pests and prevent future infestations using safe, professional, and environmentally responsible methods.
                                   </p>
                                   <div class="action">
-                                      <a href="#" class="whatsapp"><i class="uil uil-whatsapp"></i> Whatsapp Now</a>
-                                      <a href="#" class="call"><i class="uil uil-phone"></i> Call Now</a>
+                                      <div class="action">
+                                      <a href="https://api.whatsapp.com/send?phone=916300225950&text=Hi%2C%20I%20am%20Looking%20for%20Pest%20Control%20Service%20in%20Hyderabad." class="whatsapp" target="_blank"><i class="uil uil-whatsapp"></i> Whatsapp Now</a>
+                                      <a href="tel:+916300225950" class="call"><i class="uil uil-phone"></i> Call Now </a>
+                                  </div>
                                   </div>
                               </div>
                           </div>
@@ -55,8 +57,10 @@
                                       Get fast and effective pest control treatments from trained professionals. We remove termites, cockroaches, bed bugs, rodents, mosquitoes, and ants while ensuring long-term pest prevention for residential and commercial properties.
                                   </p>
                                   <div class="action">
-                                      <a href="#" class="whatsapp"><i class="uil uil-whatsapp"></i> Whatsapp Now</a>
-                                      <a href="#" class="call"><i class="uil uil-phone"></i> Call Now</a>
+                                     <div class="action">
+                                      <a href="https://api.whatsapp.com/send?phone=916300225950&text=Hi%2C%20I%20am%20Looking%20for%20Pest%20Control%20Service%20in%20Hyderabad." class="whatsapp" target="_blank"><i class="uil uil-whatsapp"></i> Whatsapp Now</a>
+                                      <a href="tel:+916300225950" class="call"><i class="uil uil-phone"></i> Call Now </a>
+                                  </div>
                                   </div>
                               </div>
                           </div>
@@ -78,6 +82,7 @@
       var swiper = new Swiper(".mySwiper", {
           spaceBetween: 10,
           centeredSlides: true,
+          effect:"fade",
           autoplay: {
               delay: 5000,
               disableOnInteraction: false,

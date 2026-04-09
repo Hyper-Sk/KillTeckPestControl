@@ -13,7 +13,7 @@
 
   .service-2 > p {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     max-width: 1000px;
     margin-inline: auto;
   }
@@ -36,6 +36,11 @@
     object-fit: cover;
     margin-bottom: 10px;
   }
+
+  .service-2-content .card img:hover {
+  filter: saturate(0);
+}
+
   .service-2-content .card h3{
     margin-bottom: 15px;
   }
@@ -44,12 +49,13 @@
   }
 
   .service-2-content .card ul{
-    margin-bottom: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
     list-style: none;
   }
   .service-2-content .card ul li{
     margin-bottom: 10px;
+    display: flex;
+    gap: 7px;
    
   }
    .service-2-content .card ul li i{
@@ -64,6 +70,10 @@
     }
   }
   @media screen and (max-width:576px) {
+    
+  .service-2 {
+    padding: 2rem 20px;
+  }
     .service-2 .service-2-content{
       grid-template-columns: 1fr  ;
     }

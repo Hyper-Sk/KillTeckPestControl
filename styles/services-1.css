@@ -1,63 +1,115 @@
 /* ----- service 1 section  */
 
+.service-1 {
+  padding: 4rem 20px;
+}
+
+.service-1>h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+
+.service-1>p {
+  text-align: center;
+  margin-bottom: 50px;
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+.service-1 .readmore {
+  display: flex;
+  justify-content: center;
+}
+
+.service-1 .readmore a {
+  padding: 10px 40px;
+  background-color: var(--bg-dark);
+  color: white;
+  font-weight: 500;
+}
+
+.service-1 .readmore a:hover {
+ background-color: var(--bg-red);
+}
+
+.service-1 .readmore a i {
+  color: white;
+  font-size: 18px;
+}
+
+.service-1 .readmore a:hover i {
+  padding-left: 10px;
+}
+
+
+
+.service-1 .service-1-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1200px;
+  gap: 20px;
+  margin-inline: auto;
+  margin-bottom: 50px;
+}
+
+.service-1-content .card {
+  border-top: 4px solid var(--bg-dark);
+}
+
+.service-1-content .card img {
+  background-color: #eaeaea;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+
+}
+.service-1-content .card img:hover {
+  filter: saturate(0);
+}
+
+.service-1-content .card h3 {
+  margin-bottom: 15px;
+}
+
+.service-1-content .card p {
+  margin-bottom: 20px;
+}
+
+.service-1-content .card a {
+  padding: 10px 20px;
+  background-color: var(--bg-red);
+  color: white;
+  font-weight: 500;
+}
+
+.service-1-content .card a:hover {
+  background-color: var(--bg-dark);
+}
+
+.service-1-content .card a:hover i {
+  padding-left: 10px;
+}
+
+
+
+.service-1-content .card a i {
+  color: white;
+}
+
+@media screen and (max-width:992px) {
+  .service-1 .service-1-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:576px) {
   .service-1 {
-    padding: 4rem 20px;
+  padding: 2rem 20px;
+}
+  .service-1 .service-1-content {
+    grid-template-columns: 1fr;
   }
 
-  .service-1 > h2 {
-    text-align: center;
-    margin-bottom: 10px;
-    font-weight: 500;
-  }
-
-
-  .service-1 > p {
-    text-align: center;
-    margin-bottom: 30px;
-    max-width: 1000px;
-    margin-inline: auto;
-  }
-
-
-  .service-1 .service-1-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    max-width: 1200px;
-    gap: 20px;
-    margin-inline: auto;
-  }
-
-  .service-1-content .card{
-    border-top: 4px solid var(--bg-dark);
-  }
-  .service-1-content .card img{
-    background-color: #eaeaea;
-    height: 200px;
-    object-fit: cover;
-    margin-bottom: 10px;
-  }
-  .service-1-content .card h3{
-    margin-bottom: 15px;
-  }
-  .service-1-content .card p{
-    margin-bottom: 20px;
-  }
-  .service-1-content .card a{
-    padding: 10px 20px;
-    background-color: var(--bg-red);
-    color: white;
-  }
-  .service-1-content .card a i{
-    color: white;
-  }
-
-  @media screen and (max-width:992px) {
-    .service-1 .service-1-content{
-      grid-template-columns: 1fr 1fr  ;
-    }
-  }
-  @media screen and (max-width:576px) {
-    .service-1 .service-1-content{
-      grid-template-columns: 1fr  ;
-    }
-  }
+}

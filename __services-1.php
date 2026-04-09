@@ -5,14 +5,13 @@
     </p>
 
     <div class="service-1-content">
-
         <div class="card">
             <img src="./images/pest/pest-2.png" alt="general pest control service removing insects and pests from home" loading="lazy">
             <h3>General Pest Control</h3>
             <p>
                 Professional pest control service eliminating insects and rodents safely, protecting homes and businesses from infestations with effective long-lasting treatments.
             </p>
-            <a href="#">Book Now <i class="uil uil-arrow-up-right"></i></a>
+            <a href="./contact.php">Book Now <i class="uil uil-arrow-up-right"></i></a>
         </div>
 
         <div class="card">
@@ -21,7 +20,7 @@
             <p>
                 Powerful cockroach control treatment targeting hidden breeding areas, eliminating infestations completely while preventing future cockroach problems in kitchens and bathrooms.
             </p>
-            <a href="#">Book Now <i class="uil uil-arrow-up-right"></i></a>
+            <a href="./contact.php">Book Now <i class="uil uil-arrow-up-right"></i></a>
         </div>
 
         <div class="card">
@@ -30,7 +29,7 @@
             <p>
                 Advanced termite control service protecting wooden structures, furniture, and property from destructive termite colonies using professional anti-termite treatment solutions.
             </p>
-            <a href="#">Book Now <i class="uil uil-arrow-up-right"></i></a>
+            <a href="./contact.php">Book Now <i class="uil uil-arrow-up-right"></i></a>
         </div>
 
         <div class="card">
@@ -39,7 +38,7 @@
             <p>
                 Professional bed bug removal treatment eliminating hidden bed bugs from mattresses, furniture, and rooms, ensuring comfortable sleep and long-lasting protection.
             </p>
-            <a href="#">Book Now <i class="uil uil-arrow-up-right"></i></a>
+            <a href="./contact.php">Book Now <i class="uil uil-arrow-up-right"></i></a>
         </div>
 
         <div class="card">
@@ -48,7 +47,7 @@
             <p>
                 Safe and effective rodent control service removing rats and mice, preventing property damage, contamination, and dangerous disease spread inside homes.
             </p>
-            <a href="#">Book Now <i class="uil uil-arrow-up-right"></i></a>
+            <a href="./contact.php">Book Now <i class="uil uil-arrow-up-right"></i></a>
         </div>
 
         <div class="card">
@@ -57,17 +56,20 @@
             <p>
                 Effective mosquito control treatment reducing breeding areas and eliminating mosquitoes, protecting families from dangerous mosquito-borne diseases like dengue and malaria.
             </p>
-            <a href="#">Book Now <i class="uil uil-arrow-up-right"></i></a>
+            <a href="./contact.php">Book Now <i class="uil uil-arrow-up-right"></i></a>
         </div>
 
-        <div class="card">
+        <!-- <div class="card">
             <img src="./images/pest/ant.jpg" alt="ant pest control service removing ants from kitchen and home" loading="lazy">
             <h3>Ant Control</h3>
             <p>
                 Professional ant control service targeting colonies and entry points, eliminating ant infestations and preventing ants from invading kitchens and homes.
             </p>
-            <a href="#">Book Now <i class="uil uil-arrow-up-right"></i></a>
-        </div>
+            <a href="./contact.php">Book Now <i class="uil uil-arrow-up-right"></i></a>
+        </div> -->
+    </div>
 
+    <div class="readmore">
+        <a href="./services.php">See all Services <i class="uil uil-arrow-right"></i></a>
     </div>
 </section>

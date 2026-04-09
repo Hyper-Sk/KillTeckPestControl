@@ -1,0 +1,88 @@
+/* ----- service 1 section  */
+
+.services {
+  padding: 4rem 20px;
+}
+
+.services>h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+
+.services>p {
+  text-align: center;
+  margin-bottom: 50px;
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+
+
+
+
+.services .services-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1200px;
+  gap: 20px;
+  margin-inline: auto;
+  margin-bottom: 30px;
+}
+
+.services-content .service__single {
+  border-top: 4px solid var(--bg-dark);
+}
+
+.services-content .service__single img {
+  background-color: #eaeaea;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.services-content .service__single h3 {
+  margin-bottom: 15px;
+}
+
+.services-content .service__single p {
+  margin-bottom: 20px;
+}
+
+.services-content .service__single a {
+  padding: 10px 20px;
+  background-color: var(--bg-red);
+  color: white;
+  font-weight: 500;
+}
+
+.services-content .service__single a:hover {
+  background-color: var(--bg-dark);
+}
+
+.services-content .service__single a:hover i {
+  padding-left: 10px;
+}
+
+
+
+.services-content .service__single a i {
+  color: white;
+}
+
+@media screen and (max-width:992px) {
+  .services .services-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .services {
+    padding: 2rem 20px;
+  }
+
+  .services .services-content {
+    grid-template-columns: 1fr;
+  }
+}
