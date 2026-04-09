@@ -42,7 +42,6 @@
  }
 
  .swiper-slide .slide-content {
-
      max-width: 1200px;
      margin-inline: auto;
      display: flex;
@@ -80,6 +79,7 @@
  .swiper-slide .slide .action a {
      padding: 12px 30px;
      color: white;
+     font-weight: 500;
  }
 
  .swiper-slide .slide .action a.whatsapp {

@@ -27,9 +27,14 @@
             Professional pest control solutions for villas ensuring complete protection from termites, cockroaches, rodents, and insects for clean living spaces.
             </p>
             <ul>
-                <li> <i class="uil uil-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, doloremque.</li>
-                <li> <i class="uil uil-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, doloremque.</li>
-                <li> <i class="uil uil-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, doloremque.</li>
+                <li> <i class="uil uil-check"></i> 
+                Complete pest protection for large villas and luxury homes.
+                </li>
+                <li> <i class="uil uil-check"></i> Eliminates termites, rodents, insects, and other pests.
+            </li>
+                <li> <i class="uil uil-check"></i>Outdoor and indoor pest control treatment included.</li>
+
+                <li> <i class="uil uil-check"></i>Preventive treatments for gardens, basements, and surrounding areas.</li>
               
             </ul>
         </div>
@@ -41,10 +46,10 @@
             Reliable office pest control services keeping workplaces hygienic and pest-free, protecting employees, equipment, and business environments from infestations.
             </p>
             <ul>
-                <li> <i class="uil uil-check"></i> Maintains hygienic and pest-free office environment </li>
-                <li> <i class="uil uil-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, doloremque.</li>
-                <li> <i class="uil uil-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, doloremque.</li>
-               
+                <li> <i class="uil uil-check"></i>Maintains hygienic and pest-free office environment </li>
+                <li> <i class="uil uil-check"></i> Protects documents, equipment, and furniture from pest damage. </li>
+                <li> <i class="uil uil-check"></i>Discreet and scheduled treatments without disturbing office work.</li>
+                <li> <i class="uil uil-check"></i> Customized pest control plans for offices and commercial spaces.</li>
             </ul>
         </div>
 
@@ -56,9 +61,10 @@
             Customized pest control services for shops, warehouses, restaurants, and other properties ensuring effective pest removal and long-term protection.
                     </p>
             <ul>
-                <li> <i class="uil uil-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, doloremque.</li>
-                <li> <i class="uil uil-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, doloremque.</li>
-                <li> <i class="uil uil-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, doloremque.</li>
+                <li> <i class="uil uil-check"></i> Pest control solutions for shops, warehouses, restaurants, and buildings.</li>
+                <li> <i class="uil uil-check"></i>Effective treatment for all common pest infestations.</li>
+                <li> <i class="uil uil-check"></i>Regular inspection and preventive pest management.</li>
+                <li> <i class="uil uil-check"></i>Safe and professional pest removal with long-term protection</li>
                
             </ul>
         </div>
