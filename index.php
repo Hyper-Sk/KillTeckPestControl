@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./styles/headline.css">
   <link rel="stylesheet" href="./styles/loader.css">
   <link rel="stylesheet" href="./styles/reviews.css">
+  <link rel="stylesheet" href="./styles/about-home.css">
 
 
   <title>Best Pest Control in Hyderabad | Kill Teck Pest Control </title>
@@ -33,12 +34,11 @@
     <!-- header area  -->
     <?php include "__header.php" ?>
 
-
-
-
-
     <!-- hero area  -->
     <?php include "__hero.php" ?>
+
+    <!-- about section  -->
+      <?php include "__about-home.php" ?>
 
     <!-- service two area -->
     <?php include "__services-2.php" ?>

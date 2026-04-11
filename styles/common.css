@@ -18,7 +18,16 @@
   transition: 0.3s ease;
 }
 
-p,a,li,ul,section,div{
+p{
+  line-height: 22px;
+}
+
+p,
+a,
+li,
+ul,
+section,
+div {
   font-size: 15px;
 }
 
@@ -55,32 +64,28 @@ h4 {
 
 h1>span {
   background: #000000;
-  background: linear-gradient(90deg, #ff0000  0%, #9e1000 100%);
+  background: linear-gradient(90deg, #ff0000 0%, #9e1000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
 }
 
 h2>span {
-  font-weight: 600;
-   background: #000000;
-  background: linear-gradient(90deg, #ff0000  0%, #9e1000 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 600;
+  font-weight: 500;
+  color: var(--bg-red);
 }
 
 h3>span {
-   background: #000000;
-  background: linear-gradient(90deg, #ff0000  0%, #9e1000 100%);
+  background: #000000;
+  background: linear-gradient(90deg, #ff0000 0%, #9e1000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
 }
 
 h4>span {
-   background: #000000;
-  background: linear-gradient(90deg, #ff0000  0%, #9e1000 100%);
+  background: #000000;
+  background: linear-gradient(90deg, #ff0000 0%, #9e1000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;

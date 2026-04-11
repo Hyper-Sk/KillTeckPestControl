@@ -1,5 +1,5 @@
 <section class="service-1">
-    <h2>Professional  <span>Pest Control</span> Services </h2>
+    <h2>Professional <span>Pest Control Services </span></h2>
     <p>
         Kill Teck Pest Control offers professional pest control services for homes, offices, flats, villas, and commercial properties. We eliminate termites, cockroaches, rodents, mosquitoes, ants, and other pests using safe treatments and effective long-lasting pest prevention solutions.
     </p>
