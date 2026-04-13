@@ -52,7 +52,8 @@
 
 .services-content .service__single a {
   padding: 10px 20px;
-  background-color: var(--bg-red);
+  background: #ff0000;
+  background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(158, 16, 0, 1) 100%);
   color: white;
   font-weight: 500;
 }

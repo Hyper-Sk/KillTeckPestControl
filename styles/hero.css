@@ -1,6 +1,6 @@
  .hero {
      height: 80vh;
-     
+
  }
 
  .hero-content {
@@ -67,7 +67,7 @@
      color: white;
      max-width: 800px;
      margin-inline: auto;
-    font-size: 17px;
+     font-size: 17px;
  }
 
  .swiper-slide .slide .action {
@@ -122,6 +122,9 @@
          font-size: 2rem;
      }
 
+     .swiper-slide .slide p {
+         font-size: 16px;
+     }
 
      .swiper-slide .slide .action {
          width: 100%;

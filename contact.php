@@ -41,12 +41,12 @@
 
 
     <section class="form-area">
-      <h2>Contact Urban Bike Service in <span> Hyderabad </span> </h2>
+      <h2>Contact Kill Teck Pest Control in <span> Hyderabad </span> </h2>
       <p>
-        Call or message us today for expert bike repair and maintenance services.
+        Call or message us today for expert maintenance services.
       </p>
       <div>
-        <a href="tel:+919885442038" class="btn-2">Call Now!</a>
+        <a href="tel:+916300225950" class="btn-2">Call Now!</a>
       </div>
       <form action="./__sendmail.php" method="post" class="form-area-content">
         <div class="field">
@@ -61,40 +61,11 @@
           <label for="">Select Service:</label>
           <select name="service" id="" required>
             <option value="" disabled selected> Please Select Service </option>
-            <option value="General Bike Service">General Bike Service</option>
-            <option value="Basic Service (Oil + Checkup)"> Basic Service (Oil + Checkup)</option>
-            <option value="Full Bike Service"> Full Bike Service
-            </option>
-            <option value="Periodic Maintenance Service"> Periodic Maintenance Service</option>
-            <option value="Express Service (Quick 1–2 Hour Service)"> Express Service (Quick 1–2 Hour Service)</option>
-            <option value="Engine Oil Change"> Engine Oil Change</option>
-            <option value="Engine Tuning"> Engine Tuning</option>
-            <option value="Carburetor Cleaning"> Carburetor Cleaning</option>
-            <option value="Fuel Injector Cleaning"> Fuel Injector Cleaning</option>
-            <option value="Clutch Plate Replacement"> Clutch Plate Replacement</option>
-            <option value="Engine Overhaul"> Engine Overhaul</option>
-            <option value="Valve Adjustment Service"> Valve Adjustment Service</option>
-            <option value="Battery Replacement"> Battery Replacement</option>
-            <option value="Self Starter Repair"> Self Starter Repair</option>
-            <option value="Headlight & Indicator Repair">Headlight & Indicator Repair</option>
-            <option value="Wiring Repair">Wiring Repair</option>
-            <option value="Brake Pad Replacement">Brake Pad Replacement</option>
-            <option value="Disc Brake Service">Disc Brake Service</option>
-            <option value="Chain Sprocket Replacement">Chain Sprocket Replacement</option>
-            <option value="Wheel Alignment">Wheel Alignment</option>
-            <option value="Tyre Replacement">Tyre Replacement</option>
-            <option value="Puncture Repair">Puncture Repair</option>
-            <option value="Bike Wash">Bike Wash</option>
-            <option value="Bike Polishing & Detailing">Bike Polishing & Detailing</option>
-            <option value="Suspension Service">Suspension Service</option>
-            <option value="Other">Other</option>
+            
           </select>
         </div>
 
-        <div class="field">
-          <label for="">Vehicle Name:</label>
-          <input type="text" placeholder="Enter Vehicle Name" required name="vehiclename">
-        </div>
+      
         <div class="field">
           <label for="">Pickup or Service Location:</label>
           <input type="text" placeholder="Enter your Address" required name="address">
