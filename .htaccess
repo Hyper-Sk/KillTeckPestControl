@@ -1,0 +1,7 @@
+ErrorDocument 404 /index.php
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
+
+Header unset X-Powered-By

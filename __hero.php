@@ -5,17 +5,17 @@
           <div class="swiper mySwiper">
               <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                      <div class="slide" style="background-image: url(images/pest/pest-4.png);">
+                      <div class="slide" style="background-image: url(images/pest/pest-5.png);">
                           <div class="overlay">
                               <div class="slide-content">
                                   <h3>
                                       Say Goodbye to Pests with - Kill Teck Pest Control
                                   </h3>
                                   <p>
-                                      Our experienced pest control team uses advanced equipment and proven techniques to eliminate pest infestations quickly and effectively, ensuring a clean, hygienic, and pest-free environment for your home or workplace.
+                                      “Our experienced pest control team uses advanced equipment and proven methods to quickly eliminate pest infestations, ensuring a clean, hygienic, and pest-free home or workplace.”
                                   </p>
                                   <div class="action">
-                                      <a href="https://api.whatsapp.com/send?phone=916300225950&text=Hi%2C%20I%20am%20Looking%20for%20Pest%20Control%20Service%20in%20Hyderabad." class="whatsapp" target="_blank"><i class="uil uil-whatsapp"></i> Whatsapp Now</a>
+                                      <a href="./contact.php" class="whatsapp" target="_blank"><i class="uil uil-arrow-up-right"></i> Book Now</a>
                                       <a href="tel:+916300225950" class="call"><i class="uil uil-phone"></i> Call Now </a>
                                   </div>
                               </div>
@@ -32,13 +32,13 @@
                                       Complete Pest Control Solutions in Hyderabad
                                   </h3>
                                   <p>
-                                      We offer comprehensive pest control services designed for houses, flats, villas, offices, and commercial buildings. Our treatments remove pests and prevent future infestations using safe, professional, and environmentally responsible methods.
+                                      “We provide professional pest control services for homes, flats, villas, offices, and commercial buildings, eliminating pests and preventing future infestations with safe and effective treatments.”
                                   </p>
                                   <div class="action">
                                       <div class="action">
-                                      <a href="https://api.whatsapp.com/send?phone=916300225950&text=Hi%2C%20I%20am%20Looking%20for%20Pest%20Control%20Service%20in%20Hyderabad." class="whatsapp" target="_blank"><i class="uil uil-whatsapp"></i> Whatsapp Now</a>
-                                      <a href="tel:+916300225950" class="call"><i class="uil uil-phone"></i> Call Now </a>
-                                  </div>
+                                          <a href="./contact.php" class="whatsapp" target="_blank"><i class="uil uil-arrow-up-right"></i> Book Now</a>
+                                          <a href="tel:+916300225950" class="call"><i class="uil uil-phone"></i> Call Now </a>
+                                      </div>
                                   </div>
                               </div>
                           </div>
@@ -46,21 +46,22 @@
 
 
                   </div>
+
                   <div class="swiper-slide">
-                      <div class="slide" style="background-image: url(images/pest/pest-5.png);">
+                      <div class="slide" style="background-image: url(images/pest/pest-4.png);">
                           <div class="overlay">
                               <div class="slide-content">
                                   <h3>
                                       Fast, Safe and Reliable Pest Control Services
                                   </h3>
                                   <p>
-                                      Get fast and effective pest control treatments from trained professionals. We remove termites, cockroaches, bed bugs, rodents, mosquitoes, and ants while ensuring long-term pest prevention for residential and commercial properties.
+                                      “Get fast and effective pest control services from trained professionals. We eliminate termites, cockroaches, bed bugs, rodents, mosquitoes, and ants with long-lasting protection for homes and businesses.”
                                   </p>
                                   <div class="action">
-                                     <div class="action">
-                                      <a href="https://api.whatsapp.com/send?phone=916300225950&text=Hi%2C%20I%20am%20Looking%20for%20Pest%20Control%20Service%20in%20Hyderabad." class="whatsapp" target="_blank"><i class="uil uil-whatsapp"></i> Whatsapp Now</a>
-                                      <a href="tel:+916300225950" class="call"><i class="uil uil-phone"></i> Call Now </a>
-                                  </div>
+                                      <div class="action">
+                                          <a href="./contact.php" class="whatsapp" target="_blank"><i class="uil uil-arrow-up-right"></i> Book Now</a>
+                                          <a href="tel:+916300225950" class="call"><i class="uil uil-phone"></i> Call Now </a>
+                                      </div>
                                   </div>
                               </div>
                           </div>
@@ -80,9 +81,9 @@
   <!-- Initialize Swiper -->
   <script>
       var swiper = new Swiper(".mySwiper", {
-          spaceBetween: 10,
+          spaceBetween: 0,
           centeredSlides: true,
-          effect:"fade",
+          
           autoplay: {
               delay: 5000,
               disableOnInteraction: false,

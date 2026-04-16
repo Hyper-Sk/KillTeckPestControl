@@ -13,9 +13,12 @@
   <link rel="stylesheet" href="./styles/about-home.css">
 
 
+
   <title>Best Pest Control in Hyderabad | Kill Teck Pest Control </title>
+  <meta name="description" content="Kill Teck Pest Control provides professional pest control services for homes and businesses. Safe treatment for termites, cockroaches, bed bugs, and rodents.">
 
-
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Kill Teck Pest Control">
 </head>
 
 <body>
@@ -38,7 +41,7 @@
     <?php include "__hero.php" ?>
 
     <!-- about section  -->
-      <?php include "__about-home.php" ?>
+    <?php include "__about-home.php" ?>
 
     <!-- service two area -->
     <?php include "__services-2.php" ?>

@@ -31,7 +31,10 @@
                 <i class="uil uil-envelope-edit"></i> killteckpestcontrolindia@gmail.com
             </a>
             <a href="tel:+916300225950" class="phone">
-                <i class="uil uil-phone"></i> </i> +91 63002 25950
+                <i class="uil uil-phone"></i> +91 63002 25950
+            </a>
+            <a href="https://www.instagram.com/killteck.pci" class="phone">
+              <i class="uil uil-instagram"></i>  Follow us on Instagram
             </a>
         </div>
     </div>

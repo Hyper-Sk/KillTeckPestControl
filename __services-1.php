@@ -1,7 +1,7 @@
 <section class="service-1">
-    <h2>Professional <span>Pest Control Services </span></h2>
+    <h1>Professional <span>Pest Control Services </span>in Hyderabad</h1>
     <p>
-        Kill Teck Pest Control offers professional pest control services for homes, offices, flats, villas, and commercial properties. We eliminate termites, cockroaches, rodents, mosquitoes, ants, and other pests using safe treatments and effective long-lasting pest prevention solutions.
+      <span> Kill Teck Pest Control </span>  offers professional pest control services for homes, offices, flats, villas, and commercial properties. We eliminate termites, cockroaches, rodents, mosquitoes, ants, and other pests using safe treatments and effective long-lasting pest prevention solutions.
     </p>
 
     <div class="service-1-content">
@@ -24,7 +24,7 @@
         </div>
 
         <div class="card">
-            <img src="./images/pest/termite.webp" alt="termite pest control treatment protecting wooden furniture and structures" loading="lazy">
+            <img src="./images/pest/termite.jpg" alt="termite pest control treatment protecting wooden furniture and structures" loading="lazy">
             <h3>Termite Control</h3>
             <p>
                 Advanced termite control service protecting wooden structures, furniture, and property from destructive termite colonies using professional anti-termite treatment solutions.

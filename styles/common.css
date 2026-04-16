@@ -18,7 +18,7 @@
   transition: 0.3s ease;
 }
 
-p{
+p {
   line-height: 22px;
 }
 
@@ -63,16 +63,19 @@ h4 {
 
 
 h1>span {
-  background: #000000;
+   background: #000000;
   background: linear-gradient(90deg, #ff0000 0%, #9e1000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 h2>span {
+   background: #000000;
+  background: linear-gradient(90deg, #ff0000 0%, #9e1000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: 500;
-  color: var(--bg-red);
 }
 
 h3>span {
@@ -80,7 +83,7 @@ h3>span {
   background: linear-gradient(90deg, #ff0000 0%, #9e1000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 h4>span {
@@ -88,9 +91,29 @@ h4>span {
   background: linear-gradient(90deg, #ff0000 0%, #9e1000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 600;
+  font-weight: 500;
 }
 
+p>span {
+  color: var(--bg-red);
+  font-weight: 500;
+}
 img {
   width: 100%;
 }
+
+
+
+/* *************** swiper css ***************  */
+.swiper-button-prev {
+  color: var(--bg-red);
+}
+
+.swiper-button-next {
+  color: var(--bg-red);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--bg-red) !important;
+}
+

@@ -32,7 +32,7 @@
   <aside class="aside">
 
     <div class="close">
-    <i class="uil uil-multiply"></i>
+      <i class="uil uil-multiply"></i>
     </div>
 
     <div class="menu">
@@ -44,16 +44,15 @@
     </div>
 
 
-    <!-- <div class="buttons">
-      <a href="tel:+919885442038" class="btn-1"> Book Bike Service </a>
-      <a href="tel:+919885442038" class="btn-2"> Buy Space Parts </a>
-    </div> -->
+    <div class="buttons">
+      <a href="./contact.php" class="btn-1"> Book Now </a>
+      <a href="https://api.whatsapp.com/send?phone=916300225950&text=Hi%2C%20I%20am%20Looking%20for%20Pest%20Control%20Service%20in%20Hyderabad." class="btn-2"> Whatsapp Now </a>
+    </div>
 
 
-    <!-- <div class="social-icons">
-       <a href="./" > <i class="bi bi-facebook"></i> </a>
-       <a href="https://api.whatsapp.com/send?phone=919885442038&text=HI%2C%20I%20am%20looking%20For%20bike%20Service%20in%20Hyderabad." > <i class="bi bi-whatsapp"></i> </a>
-    </div> -->
+    <div class="social-icons">
+      <a href="https://www.instagram.com/killteck.pci"> <i class="uil uil-instagram"></i> </a>
+    </div>
   </aside>
 </header>
 
@@ -63,12 +62,11 @@
   let closeNav = document.querySelector('.aside .close')
   let aside = document.querySelector(".aside")
 
-  openNav.addEventListener("click",()=>{
-      aside.style.transform = "translateX(0)"
+  openNav.addEventListener("click", () => {
+    aside.style.transform = "translateX(0)"
   })
 
-  closeNav.addEventListener("click",()=>{
-      aside.style.transform = "translateX(100%)"
+  closeNav.addEventListener("click", () => {
+    aside.style.transform = "translateX(100%)"
   })
-
 </script>

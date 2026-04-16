@@ -21,11 +21,18 @@
 }
 
 .form-area>div a {
-    padding-inline: 40px;
+    padding: 10px 60px;
+    color: white;
+    background: #ff0000;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(158, 16, 0, 1) 100%);
+}
+
+.form-area>div a i {
+    color: white;
 }
 
 .form-area-content {
-    background-color: #fff4eb;
+    background-color: #f1f1f1;
     max-width: 1000px;
     margin-inline: auto;
     display: grid;
@@ -36,7 +43,13 @@
 }
 
 .form-area-content .submit button {
-    padding: 10px 20px;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    background: #ff0000;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(158, 16, 0, 1) 100%);
+    cursor: pointer;
+    font-weight: 500;
 }
 
 .form-area-content .field {
@@ -54,10 +67,12 @@
     padding: 15px 0 15px 15px;
     border-radius: 7px;
     border: none;
+    background-color: white;
 }
 
 .form-area-content .field label {
     margin-bottom: 4px;
+    font-weight: 500;
 }
 
 .form-area-content .field textarea {
@@ -71,10 +86,9 @@
 
 
 @media screen and (max-width:768px) {
-
-
     .form-area-content {
         padding: 40px 20px;
     }
-
 }
+
+@media screen and (max-width:576px) {}

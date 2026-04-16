@@ -11,15 +11,14 @@
   <link rel="stylesheet" href="./styles/blog.css">
 
 
-  <title>About Us</title>
-
+  <title>About Us - Kill Teck Pest Control</title>
+  <meta name="description" content="Learn about Kill Teck Pest Control, a trusted pest control company providing safe and effective pest removal services for homes and commercial properties.">
 
 </head>
 
 <body>
   <!-- loader  -->
   <?php include "__loader.php" ?>
-
 
   <div class="page">
 
@@ -41,7 +40,10 @@
     <section class="blog-left">
       <div class="blog-left-content">
         <div class="left">
-          <img src="./images/pest/pest-5.png" alt="about">
+          <img
+            src="./images/pest/pest-5.png"
+            alt="Professional pest control technician performing pest treatment service"
+            loading="lazy">
         </div>
         <div class="right">
           <h2>About <span> Kill Teck Pest Control</span> </h2>
@@ -71,6 +73,9 @@
 
     <!-- footer area -->
     <?php include "__footer.php" ?>
+
+    <!-- popups  -->
+    <?php include "__popup.php" ?>
 
   </div>
 

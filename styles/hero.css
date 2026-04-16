@@ -12,7 +12,7 @@
      height: 100%;
  }
 
- .swiper-slide {
+ .hero-content .swiper-slide {
      text-align: center;
      font-size: 18px;
      background: #eaeaea;
@@ -21,14 +21,14 @@
      align-items: center;
  }
 
- .swiper-slide img {
+ .hero-content.swiper-slide img {
      display: block;
      width: 100%;
      height: 100%;
      object-fit: cover;
  }
 
- .swiper-slide .slide {
+ .hero-content .swiper-slide .slide {
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center center;
@@ -36,13 +36,13 @@
      height: 100%;
  }
 
- .swiper-slide .slide .overlay {
+ .hero-content .swiper-slide .slide .overlay {
      background-color: rgba(0, 0, 0, 0.6);
      width: 100%;
      height: 100%;
  }
 
- .swiper-slide .slide-content {
+ .hero-content .swiper-slide .slide-content {
      max-width: 1200px;
      margin-inline: auto;
      display: flex;
@@ -53,7 +53,7 @@
      padding: 20px 30px;
  }
 
- .swiper-slide .slide h3 {
+ .hero-content .swiper-slide .slide h3 {
      font-size: 2.8rem;
      margin-bottom: 15px;
      font-weight: 500;
@@ -62,7 +62,7 @@
 
  }
 
- .swiper-slide .slide p {
+ .hero-content .swiper-slide .slide p {
      margin-bottom: 30px;
      color: white;
      max-width: 800px;
@@ -70,66 +70,57 @@
      font-size: 17px;
  }
 
- .swiper-slide .slide .action {
+ .hero-content .swiper-slide .slide .action {
      width: 100%;
      display: flex;
      justify-content: center;
      gap: 20px;
  }
 
- .swiper-slide .slide .action a {
+ .hero-content .swiper-slide .slide .action a {
      padding: 12px 30px;
      color: white;
      font-weight: 500;
      font-size: 18px;
  }
 
- .swiper-slide .slide .action a.whatsapp {
-     background: #00e339;
-     background: linear-gradient(91deg, rgba(0, 227, 57, 1) 0%, rgba(0, 117, 4, 1) 100%);
+ .hero-content .swiper-slide .slide .action a.whatsapp {
+     background-color: #000000;
+     border: 2px solid white;
  }
 
- .swiper-slide .slide .action a.call {
+ .hero-content .swiper-slide .slide .action a.call {
      background: #ff0000;
      background: linear-gradient(91deg, rgba(255, 0, 0, 1) 0%, rgba(158, 16, 0, 1) 100%);
  }
 
- .swiper-slide .slide .action a i {
+ .hero-content .swiper-slide .slide .action a i {
      color: white;
      font-size: 18px;
  }
 
 
- .swiper-button-prev {
-     color: var(--bg-red);
- }
 
- .swiper-button-next {
-     color: var(--bg-red);
- }
-
- .swiper-pagination-bullet-active {
-     background-color: var(--bg-red) !important;
- }
 
  @media screen and (max-width:576px) {
 
      .hero {
-         height: 70vh;
+         height: 65vh;
      }
 
-     .swiper-slide .slide h3 {
-         font-size: 2rem;
+     .hero-content .swiper-slide .slide h3 {
+         font-size: 2.3rem;
      }
 
-     .swiper-slide .slide p {
-         font-size: 16px;
+     .hero-content .swiper-slide .slide p {
+         font-size: 14px;
+         line-height: 20px;
      }
 
-     .swiper-slide .slide .action {
+     .hero-content .swiper-slide .slide .action {
          width: 100%;
          display: grid;
          grid-template-columns: 1fr;
-         gap: 15px;
+         gap: 12px;
      }
  }

@@ -12,8 +12,8 @@
 
 
 
-  <title>Contact Us</title>
-
+  <title>Contact Us - Kill Teck Pest Control</title>
+  <meta name="description" content="Contact Kill Teck Pest Control for fast and reliable pest control services. Book an inspection for termite, cockroach, bed bug, and rodent treatments.">
 
 </head>
 
@@ -41,12 +41,12 @@
 
 
     <section class="form-area">
-      <h2>Contact Kill Teck Pest Control in <span> Hyderabad </span> </h2>
+      <h2> <span>Contact</span> Kill Teck Pest Control</h2>
       <p>
-        Call or message us today for expert maintenance services.
+        Call or Message us Today for Expert Pest Control Services.
       </p>
       <div>
-        <a href="tel:+916300225950" class="btn-2">Call Now!</a>
+        <a href="tel:+916300225950" class="btn-2"><i class="uil uil-phone"></i> +91 63002 25950</a>
       </div>
       <form action="./__sendmail.php" method="post" class="form-area-content">
         <div class="field">
@@ -61,22 +61,26 @@
           <label for="">Select Service:</label>
           <select name="service" id="" required>
             <option value="" disabled selected> Please Select Service </option>
-            
+            <option value="General Pest Control"> General Pest Control</option>
+            <option value="Cockroach Control"> Cockroach Control </option>
+            <option value="Termite Control"> Termite Control </option>
+            <option value="Bed Bug Control"> Bed Bug Control </option>
+            <option value="Rodent Control"> Rodent Control (Rats, Mice, bandicoots and Squirrels) </option>
+            <option value="Mosquito Control"> Mosquito Control </option>
+            <option value="Ant Control"> Ant Control </option>
           </select>
         </div>
-
-      
         <div class="field">
-          <label for="">Pickup or Service Location:</label>
+          <label for="">Service Address:</label>
           <input type="text" placeholder="Enter your Address" required name="address">
         </div>
-        <!-- <div class="field">
+        <div class="field">
           <label for="">Message:</label>
-          <textarea placeholder="Enter Message" required name="message"></textarea>
-        </div> -->
+          <textarea placeholder="Enter Message" name="message"></textarea>
+        </div>
 
         <div class="submit">
-          <button type="submit" class="btn-1" name="send">Submit</button>
+          <button type="submit" class="" name="send">Submit</button>
         </div>
       </form>
     </section>
@@ -87,6 +91,9 @@
 
     <!-- footer area -->
     <?php include "__footer.php" ?>
+
+    <!-- popups  -->
+    <?php include "__popup.php" ?>
 
   </div>
 

@@ -1,7 +1,9 @@
 .breadcrumb {
-    padding: 4rem 20px;
-    background: #ff0000;
-    background: linear-gradient(90deg, rgba(158, 16, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+    padding: 3rem 20px;
+    background-color: #1d1d1d;
+    border-bottom: 10px solid var(--bg-red);
+    /* background: #ff0000; */
+    /* background: linear-gradient(90deg, rgba(158, 16, 0, 1) 0%, rgba(255, 0, 0, 1) 100%); */
 }
 
 .breadcrumb-content {

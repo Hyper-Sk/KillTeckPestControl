@@ -1,11 +1,13 @@
 <div class="loader-container">
     <div class="logo">
-        <img src="./images/flat-logo.png" alt="">
+        <img class="" src="./images/flat-logo.png" alt="">
     </div>
     <div class="loader">
-
     </div>
 </div>
+
+
+
 
 
 <script>
